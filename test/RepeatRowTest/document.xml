@@ -106,7 +106,7 @@
                     </w:tcPr>
                     <w:p w:rsidP="006524DD" w:rsidR="006524DD" w:rsidRDefault="006524DD">
                         <w:r>
-                            <w:t>[item;repeat=record.items;repeatType=row]Cell 11</w:t>
+                            <w:t>[item;repeat=record.items;repeatType=row][item.slNo]</w:t>
                         </w:r>
                     </w:p>
                 </w:tc>
@@ -116,7 +116,7 @@
                     </w:tcPr>
                     <w:p w:rsidP="006524DD" w:rsidR="006524DD" w:rsidRDefault="006524DD">
                         <w:r>
-                            <w:t>Cell12</w:t>
+                            <w:t>[item.name]</w:t>
                         </w:r>
                     </w:p>
                 </w:tc>

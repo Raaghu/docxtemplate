@@ -1,2 +1,7 @@
+.buildpath
 /vendor/
 /test/SimpleTest/mergedOutput.docx
+.project
+.idea/
+.settings/
+test/*/output/*
